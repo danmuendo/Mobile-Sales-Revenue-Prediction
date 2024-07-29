@@ -1,0 +1,29 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted to native line endings on checkout.
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.py text
+*.ipynb text
+*.csv text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Binary files should be declared with binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
